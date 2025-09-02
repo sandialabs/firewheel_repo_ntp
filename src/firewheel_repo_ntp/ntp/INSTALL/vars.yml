@@ -16,4 +16,5 @@ files:
     sha256: "10355626f9b9c71cb2649fdda1d58e4ec01f4a5074f54049b9730d1d4b55cc98"
 
 required_files:
-  - destination: "{{ vm_resources_dir }}/ntp-server.tgz"
+  - destination: "{{ download_dir }}/ntp-server.tgz"
+  - destination: "{{ mc_dir }}/vm_resources/ntp-trusty-server.tar"
