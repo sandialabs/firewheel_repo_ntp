@@ -8,4 +8,4 @@ model_components:
         - linux.ubuntu
 model_component_objects: model_component_objects.py
 vm_resources:
-    - vm_resources/ntp-trusty-server.tar
+    - vm_resources/ntp-trusty-server.tgz
