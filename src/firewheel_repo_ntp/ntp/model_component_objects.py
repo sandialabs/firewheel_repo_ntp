@@ -31,5 +31,5 @@ fudge 127.127.1.0 stratum 0"""
 
         pickled_config = pickle.dumps(config["ntp"], protocol=0).decode()
         self.add_vm_resource(
-            -101, "install_linux_service.py", pickled_config, "ntp-trusty-server.tar"
+            -101, "install_linux_service.py", pickled_config, "ntp-trusty-server.tgz"
         )
